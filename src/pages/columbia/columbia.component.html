@@ -1,0 +1,7 @@
+<p class="text-center">COLUMBIA FORECAST</p>
+
+@if(isLoading) {
+  <p>cargando...</p>
+} @else {
+  <app-weather-chart [names]="names" [temperatures]="temperatures"></app-weather-chart>
+}

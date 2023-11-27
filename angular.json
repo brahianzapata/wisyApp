@@ -91,6 +91,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/wisy-app",
+            "netlifyToken": "nfp_2V5brbiY9F5nu6HDM5dEppAprAoKQNVLd028",
+            "siteId": ""
+          }
         }
       }
     }
